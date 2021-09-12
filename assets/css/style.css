@@ -9,36 +9,6 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.flex-row {
-    display: flex;
-}
-
 /* apply styles to <header> */
 header {
     padding: 20px 35px;
@@ -64,7 +34,7 @@ header nav {
     margin: 7px 0;
 }
 
-header nav ul li {
+header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -149,6 +119,25 @@ section {
     font-size: 16px;
 }
 
+/* apply styles to section titles */
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
 /* apply styles to what-we-do */
 .intro p {
     line-height: 1.7;
@@ -197,6 +186,10 @@ section {
     flex: 1 30%;
 }
 
+.step-text {
+    flex: 12;
+}
+
 .step-text p {
     color: #39a6b2;
     font-size: 18px;
@@ -210,6 +203,14 @@ section {
 }
 
 /* apply styles to meet the trainers*/
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .trainer {
     margin: 20px;
     background: #024e76;
@@ -219,14 +220,6 @@ section {
 
 .trainer img {
     width: 100%;
-}
-
-.trainers {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .trainer-bio {
@@ -338,4 +331,17 @@ footer div {
 
 footer a {
     color: #024e76;
+}
+
+/* utilities */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
 }
