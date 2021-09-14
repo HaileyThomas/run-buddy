@@ -218,7 +218,7 @@ section {
 
 .checkbox-wrapper input:checked + label::after, 
 .radio-wrapper input:checked + label::after {
-  content: "";
+    content: "";
 }
 
 /* apply styles to section titles */
